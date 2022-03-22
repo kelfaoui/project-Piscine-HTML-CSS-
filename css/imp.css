@@ -1,0 +1,319 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin:0px;
+	background-image: url('../img/montagne\ kabylie\ so.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;	
+}
+.elements :hover{
+	background-color:rgb(35, 18, 189);
+	transition: 0.4s;
+	font-weight: bold;
+	color: black;
+
+}
+.top-bar{
+	background-color:#000000;
+	height:60px;
+	display:flex;
+	align-items: center;
+	justify-content:space-between;
+	margin:0px;
+	padding: 8px;
+	
+	
+}
+
+.logo{
+	background-color:#0c0c0c;
+	width:110px;
+	height:48px;
+	margin-left: 5px;
+
+}
+
+.top-bar > .elements > a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	padding: 10px;
+}
+
+
+.container{
+	margin-top:10px;
+	margin-left:2%;
+	padding-left:8px;
+	width: 95%;
+	font-size: 16px;		
+}
+.container.propos1{
+background-color: blue;
+}
+
+
+
+.contact-form{
+	font-size: 16px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color:rgb(71, 4, 4);
+	margin: 35px;;
+	padding: 15px;;
+}
+#malha{
+	padding: 10px;
+	margin-left: 20px 0px;
+	border-radius: 5px bold;
+	
+}
+legend{
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #420;
+	
+}
+#malha:hover{
+	box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+.contact-form textarea{
+	width:500px;
+	height:200px;
+}
+#malha input{
+	width: 300px;
+	height: 20px;
+}
+#malha label{
+	display: inline-flex;
+	width: 200px;
+	padding: 10px 0px 15px 40px;
+}
+.container0{
+	text-align: center;
+	width: auto;
+	height: 300px;
+	margin: 15px;
+	padding: 25px;
+	box-shadow: 10px 15px 10px black;
+	overflow: auto;
+	line-height: 20px;
+	background-color: rgb(58, 139, 189);
+	opacity: 80%;
+	color:#fff;
+    border-radius: 5px black solid;
+
+}
+
+.aissat{
+	font-style: oblique;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+.container{
+	margin-top:10px;
+	margin-left:2%;
+	padding-left:8px;
+	width: 95%;
+	font-size: 16px;
+	color: rgb(255, 255, 255);		
+}
+
+.post{
+	color: rgb(255, 255, 255);
+}
+
+#slider
+{
+    position: relative;
+    background-color: rgb(255, 240, 240);
+    width:53vw;
+    border:4px solid #fff;;
+    outline:1px solid #999;
+    height:46vh;
+    margin:-315px auto;
+}
+
+#allpic
+{
+    object-fit: contain;
+    width:5vw;
+    height:43vh;
+    margin:5px 0 0 5px;
+    float:left;
+    transition:all .5s ease-out;
+    overflow:hidden;
+    border:2px solid #fff;
+    outline:1px solid #999;
+}
+.cercle, .impact, .lac, .parc
+{
+    background: #dbba27;
+    color: white;
+    bottom: 5%;
+    position: absolute;
+}
+.fleur, .miroir, .veranda 
+{
+    background: #c6b1f7;
+    color: white;
+    top: 5%;
+    position:absolute;
+}
+#allpic:hover 
+{
+    object-fit: cover;
+    width: 40vh;
+    height:20vw;
+}
+#allpic img 
+{
+    object-fit: cover;
+    width: 40vh;
+    height:20vw;
+}
+#shadow
+{
+    width:600px;
+    height:30px;
+    margin:330px auto 0;
+    border-radius:50%;
+}
+.parc{
+	text-align: center;
+	margin-right: 5px; 
+}
+.amar{
+	color:rgb(238, 234, 5);
+}
+.contener{
+    width: 80%;
+    margin: AUTO;
+
+}
+
+.PROJET {
+    width: 400PX;
+    margin: 30PX;
+    display: inline-block;
+    background-color: white;
+    padding-bottom: 15px;
+    border: 0px black solid;
+    border-radius: 10PX;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+.PROJET img {
+    min-width: 400px;
+    height: 266px;
+    }
+
+.PROJET span {
+    text-transform: uppercase;
+    display: block;
+	text-align: center;
+}
+.pictures {
+    width: 400px;
+    height: 266px;
+    overflow: hidden;
+    margin-bottom: 15px;
+
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+.walid{
+	text-align: center;
+	width: auto;
+	height: auto;
+	margin: 15px;
+	padding: 15px;
+	box-shadow: 10px 15px 10px black;	
+	
+}
+.sonia{
+	font-size: 40px;
+	font-weight: bolder;
+	color: rgb(17, 39, 167);
+	font-style: italic;
+}
+table{
+	border-collapse: collapse;
+    border: 1px solid black; 
+	background-color: rgb(216, 158, 32);
+	margin: 50px;
+}
+th ,td{
+ border: 3px solid rgb(94, 4, 4);
+  padding: 15px;
+ 
+}
+th{
+	font-weight: bolder;
+}
+.chabane{
+	font-size: 16px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+ tbody{
+	width: 40vh;
+	height: 50vh;
+}
+.anis1{
+	max-width: 100%;
+	width: 400px;
+    height: 266px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}   
+.anis2{
+	max-width: 100%;
+	width: 400px;
+    height: 266px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}   
+.anis3{
+	max-width: 100%;
+	width: 400px;
+    height: 266px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}   
+.anis4{
+	max-width: 100%;
+	width: 400px;
+    height: 266px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}  
+.anis5{
+	max-width: 100%;
+	width: 400px;
+    height: 266px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}    
+.anis6{
+	max-width: 100%;
+	width: 400px;
+    height: 266px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}   
